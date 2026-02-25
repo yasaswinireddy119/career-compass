@@ -1,0 +1,97 @@
+Project Architecture Requirements
+You must create a Full Stack Application with:
+
+Two separate GitHub repositories:
+
+Frontend Repository (FE)
+Backend Repository (BE)
+Proper integration between:
+
+Frontend (React)
+Backend (Node + Express)
+Database (Supabase)
+🎨 2. Frontend Requirements (React)
+The Frontend must be built using:
+
+⚛️ React
+🎨 Tailwind CSS for styling
+🧩 ShadCN UI for components
+🔗 Axios for API communication
+📂 Standard Folder Structure (Mandatory)
+Maintain a clean and standard structure:
+
+src/
+│
+├── components/
+├── pages/
+├── context/
+├── services/
+├── hooks/ (optional)
+├── utils/ (optional)
+└── App.jsx
+Frontend Best Practices
+Use reusable components
+Use proper state management (Context API)
+Use services folder for API calls
+Keep code clean and modular
+Follow proper naming conventions
+⚙️ 3. Backend Requirements (Node.js + Express)
+The Backend must be built using:
+
+🟢 Node.js
+🚏 Express.js
+🗄️ Supabase Database
+📂 Standard Backend Structure (Mandatory)
+backend/
+│
+├── controllers/
+├── models/
+├── routes/
+├── middleware/
+├── config/
+├── utils/
+└── server.js / app.js
+Backend Requirements
+Integrate Supabase with Node.js
+Follow MVC architecture
+Create proper APIs
+Implement authentication (if applicable)
+Maintain proper error handling
+Maintain clean and modular code
+🗄️ 4. Database Requirements (Supabase)
+Design proper database schema
+Create tables with meaningful names
+Apply proper relationships (Foreign Keys)
+Maintain proper normalization
+Document all models and relationships clearly
+🔗 5. Integration Requirements
+You must properly integrate:
+
+Frontend ↔ Backend
+Backend ↔ Supabase Database
+Ensure full functionality of all features
+📖 6. Documentation Requirements (Very Important)
+Frontend Repository README must include:
+Project Title
+Project Description
+Features
+Tech Stack Used
+Installation Steps
+Deployment Link
+Backend API Link
+Login Credentials (if applicable)
+Screenshots
+Video Walkthrough Link
+Backend Repository README must include:
+Project Overview
+Tech Stack
+API Documentation
+Database Schema Explanation
+Installation Steps
+Deployment Link
+☁️ 7. Deployment Requirements
+You must deploy your project as follows:
+
+🚏 Deploy Backend on Render
+🌐 Deploy Frontend on Netlify
+🔗 Integrate deployed Backend link into Frontend
