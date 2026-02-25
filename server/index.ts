@@ -26,17 +26,7 @@ app.use(express.urlencoded({ extended: false }));
   }
 const PORT = process.env.PORT ? Number(process.env.PORT) : 5001;
 
-httpServer.on("error", (err: any) => {
-  if (err.code === "EADDRINUSE") {
-    console.log(`⚠️ Port ${PORT} is already in use. Killing existing process...`);
-    process.exit(1);
-  } else {
-    console.error("Server error:", err);
-  }
-});
-
 httpServer.listen(PORT, () => {
   console.log(`🚀 Server running at http://localhost:${PORT}`);
 });
-
 })();
