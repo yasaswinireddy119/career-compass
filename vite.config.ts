@@ -7,6 +7,9 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 export default defineConfig({
+  build: {
+  outDir: "dist/public"
+},
   root: path.resolve(__dirname, "client"),   // 👈 IMPORTANT
   plugins: [react()],
   resolve: {
