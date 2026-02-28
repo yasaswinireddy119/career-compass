@@ -39,8 +39,8 @@ export default function LandingPage() {
 
               <h1 className="text-5xl lg:text-7xl font-display font-extrabold leading-[1.1] tracking-tight text-foreground mb-6">
                 Discover your{" "}
-                span className="bg-gradient-to-r from-blue-500 to-indigo-600 bg-clip-text text-transparent">
-                true potential
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-400">
+                  true potential
                 </span>{" "}
                 and navigate your career.
               </h1>
